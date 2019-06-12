@@ -1,0 +1,64 @@
+body {
+  background: url("../images/GOT.jpg");
+  font-family: "Arial", "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+header {
+  margin-bottom: 15px;
+}
+
+.btn-primary,
+.reset {
+  background-color: royalblue;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 15px;
+  margin-top: 90px;
+}
+.btn-primary:hover,
+.reset:hover {
+  background-color: orange;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+  height: 100%;
+  width: 800px;
+}
+
+h2,
+#message,
+#lastMessage {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.thisChoice:hover {
+  background-color: orange;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+#gif {
+  margin: 40px;
+  width: 400px;
+}
+
+#three_eye_raven {
+  height: 250px;
+  width: 250px;
+}
+
+#timeLeft {
+  color: white;
+  background-color: black;
+}
+
+#correctedAnswer {
+  color: black;
+  background-color: white;
+}

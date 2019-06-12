@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trivia Game</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        id="three_eye_raven"
+        src="assets/images/3eyedRaven.jpg"
+        alt="headerImg"
+        width="100%"
+      />
+    </header>
+    <div class="container">
+      <button class="btn btn-primary" id="startBtn">Start</button>
+
+      <div id="timeLeft"></div>
+      <div class="question"></div>
+      <div class="answers"></div>
+
+      <div id="message"></div>
+      <div id="correctedAnswer"></div>
+      <div id="gif"></div>
+
+      <div id="lastMessage"></div>
+      <div id="rightAnswers"></div>
+      <div id="wrongAnswers"></div>
+      <div id="notAnswered"></div>
+      <div id="startOverBtn"></div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+</html>
