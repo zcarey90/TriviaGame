@@ -13,7 +13,7 @@ header {
   background-color: royalblue;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 55px;
   padding: 15px;
   margin-top: 90px;
 }
@@ -43,9 +43,9 @@ h2,
   padding: 10px;
 }
 
-#gif {
-  margin: 40px;
-  width: 400px;
+#correctedAnswer {
+  color: black;
+  background-color: white;
 }
 
 #three_eye_raven {
@@ -58,7 +58,7 @@ h2,
   background-color: black;
 }
 
-#correctedAnswer {
-  color: black;
-  background-color: white;
+#gif {
+  margin: 40px;
+  width: 400px;
 }
